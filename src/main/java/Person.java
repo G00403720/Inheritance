@@ -40,7 +40,7 @@ public class Person {
     public String toString() {
         return
                 "name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", telephone='" + telephone + '\'' ;
+                        ", address='" + address + '\'' +
+                        ", telephone='" + telephone + '\'' ;
     }
 }
