@@ -9,6 +9,9 @@ public class Person {
         this.telephone = telephone;
     }
 
+    public Person(String name, String address, String telephone) {
+    }
+
     public String getName() {
         return name;
     }
@@ -31,5 +34,13 @@ public class Person {
 
     public void setTelephone(String telephone) {
         this.telephone = telephone;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", telephone='" + telephone + '\'' ;
     }
 }
